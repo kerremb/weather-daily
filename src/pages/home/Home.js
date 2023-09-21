@@ -10,7 +10,7 @@ function Home() {
     <Col>
     
     
-        <h1 className='main-title'>Seardsadsah a city</h1>
+        <h1 className='main-title'>Search a city</h1>
     </Col>
 </Row>
 <Row className='justify-content-md-center mt-5'>
