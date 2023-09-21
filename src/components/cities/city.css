@@ -1,0 +1,17 @@
+.eachCity{
+    padding: 12px 15px;
+    background-color: #9EB384;
+    color: #FAF1E4;
+    border-radius: 5px;
+}
+.eachCity:hover{
+    background-color: #435334;
+    cursor: pointer;
+}
+.forecast-row{
+    background-color: #FAF1E4 !important;
+    position: sticky !important;
+    z-index: 9;
+    top: 56px;
+    padding: 48px 0;
+}
