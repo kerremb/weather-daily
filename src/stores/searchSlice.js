@@ -8,7 +8,6 @@ export const fetchDatas = createAsyncThunk("fetchDatas", async (city) => {
     `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=${language}&units=metric`
   );
 
-  console.log(response.data);
   return response.data;
 });
 
@@ -25,7 +24,6 @@ export const searchSlice = createSlice({
       state.data = action.payload;
       state.isDone = false;
       state.loading = false;
-      console.log(state.data);
     },
   },
   extraReducers: (builder) => {
